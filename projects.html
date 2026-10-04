@@ -1,56 +1,112 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <title>Projects</title>
+    <meta charset="utf-8" />
 
-<head>
-  <title>Projects</title>
-  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Using Bootstrap 5 framework -->
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Using Bootstrap 5 framework -->
+    <!-- Bootstrap JavaScript -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- jQuery used to load the navbar -->
 
-  <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-  <!-- jQuery used to load the navbar -->
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-</head>
-
-<body>
-  <!-- Navbar gets added here -->
-  <div id="nav-placeholder"></div>
-  <!-- Web page content goes inside Bootstrap container(s) -->
-   <body class="bg-secondary-subtle text-black"></body>
-  <div class="container">
-    <h1>Projects</h1>
+  <body>
+    <!-- Navbar gets added here -->
+    <div id="nav-placeholder"></div>
+    <!-- Web page content goes inside Bootstrap container(s) -->
+    <body class="bg-secondary-subtle text-black"></body>
+    <div class="container">
+      <h1>Projects</h1>
+      <hr class="my-4" />
       <h2 class="mt-5">Triumph Daytona Webpage</h2>
 
-    
-        <p>
-          This is a basic HTML webpage I created with some basic information about the Triumph Daytona 675, which is the motorcycle that I own. It
-          includes information about the bike, its specifications, as well as a comparison to other bikes in it's class. 
-          of images. The webpage is designed to be responsive and visually
-          appealing, showcasing the bike's features and performance. The webpage was built in VSCODE using HTML, and is optimized for fast loading times 
-          and smooth navigation. Overall, this project demonstrates my ability to create a functional and visually appealing webpage that effectively showcases 
-          a product or service. 
-        </p>
-  <a href="https://marmijo31.github.io/web-version-control-starter-project/"
-     class="btn btn-primary"
-     target="_blank"
-     rel="noopener noreferrer">Triple Cylinder Titan</a>
-        
-  </div>
+      <p>
+        This is a basic HTML webpage I created with some basic information about
+        the Triumph Daytona 675, which is the motorcycle that I own. It includes
+        information about the bike, its specifications, as well as a comparison
+        to other bikes in it's class. of images. The webpage is designed to be
+        responsive and visually appealing, showcasing the bike's features and
+        performance. The webpage was built in VSCODE using HTML, and is
+        optimized for fast loading times and smooth navigation. Overall, this
+        project demonstrates my ability to create a functional and visually
+        appealing webpage that effectively showcases a product or service.
+      </p>
+      <!-- The link below opens the Triumph Daytona Webpage in a new tab so that the user can keep the original page open. -->
+      <a
+        href="https://marmijo31.github.io/web-version-control-starter-project/"
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Triple Cylinder Titan</a>
 
-  <script>
-    // Load only the #site-nav element from navbar.html
-    $("#nav-placeholder").load("navbar.html #site-nav");
-  </script>
+        <div class="text-center mt-4">
+  <img
+    src="images/Triple Cylinder Webpage.jpg"
+    class="img-fluid rounded"
+    style="max-width: 400px;"
+    alt="Triple Cylinder Webpage"
+  />
+</div>
+      >
+      <hr class="my-4" />
 
+      <h2 class="mt-5">Portfolio Webpage</h2>
+      <p>
+        This is the current webpage you are viewing. This HTML webpage was
+        created for my first project in Computer Science Principles at MSU
+        Denver to demonstrate the skills I have learned thus far. It includes
+        information about myself, my background, and my skills. The webpage is
+        designed to be responsive and visually appealing, showcasing my work and
+        experience. The webpage was built in VSCODE using HTML, and CSS, and is
+        major improvement over my previous work. More images, Bootstrap
+        compopnents, and other features have been added to make this webpage
+        more appealiong both visually and functionally.
+      </p>
+      <hr class="my-4" />
+
+      <h3 class="mt-5">Mobile Tactical Operations Center (MET-K)</h3>
+
+      <p>
+        This was a project I assisted in creating that involved designing and developing a mobile tactical
+        operations center for use in military applications. It included the
+        integration of various communication systems, data processing
+        capabilities, and security measures to ensure effective command and
+        control in dynamic environments. By leveraging my knowledge of communication systems and cybersecurity, I contributed to the development of a robust and reliable solution that met the operational requirements of the project. The MET-K project showcased my ability to apply technical skills in a practical setting, demonstrating my commitment to delivering innovative solutions in the field of military technology.
+        The MET-K reduces the standard footprint of a tactical operations center by 50% and is designed to be easily transportable and deployable in various operational scenarios.
+        Overall, the MET-K project highlights my ability to contribute to the development of cutting-edge technology solutions that enhance operational effectiveness and support mission success.
+      </p>
+    <a
+  href="https://www.dvidshub.net/news/420069/soldier-uses-existing-equipment-create-rapid-deployment-tactical-command-system"
+  class="btn btn-primary"
+  target="_blank"
+  rel="noopener noreferrer"
+  >MET-K Project Details</a
+>
+<!-- The style attribute below sets the maximum width of the image to 400 pixels, ensuring that it does not exceed this size and maintains its aspect ratio. -->
+<div class="text-center mt-4">
+  <img
+    src="images/MET-K.jpg"
+    class="img-fluid rounded"
+    style="max-width: 400px;" 
+    alt="MET-K Laid Out"
+  />
+</div>
+
+    <script>
+      // Load only the #site-nav element from navbar.html
+      $("#nav-placeholder").load("navbar.html #site-nav");
+    </script>
+  </body>
+</html>
